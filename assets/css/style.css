@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 4px;
+  text-align: center;
+  background: #6b4f41;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #dbcaa6;
+  padding: 20px;
+}
+
+section {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+}
