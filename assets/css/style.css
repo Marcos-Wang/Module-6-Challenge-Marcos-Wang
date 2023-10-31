@@ -29,3 +29,10 @@ section {
   background-color: #fff;
   padding: 20px;
 }
+button{
+  background-color: #d6e6ff;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 0px 30px;
+
+}

@@ -29,40 +29,45 @@
 
   <main>
     <aside>
-      <textarea id="location" placeholder="Enter Location."></textarea>
-      <ul> New York <br>San Francisco</ul>
+      <input id="location" placeholder="Enter Location." type="text"></textarea>
+      <div>
+        <button id="search" class="button">search!</button>
+      </div>
+      <div>
+        <ul id="recent"></ul>
+      </div>
 
     </aside>
 
     <section>
       <h2 id="locationName">Location</h2>
-      <div id="hour-9" class="column time-block">
+      <div id="todayBlock" class="column time-block">
         <ul>
           <strong>Today</strong>
           <br>
-          <li class="wh09-location-1">Wave Height: </li>
+          <li class="TDTemp">Temp: </li>
           <br>
-          <li class="wr09-location-1">Weather: </li>
+          <li class="TDWind">Wind: </li>
           <br>
-          <li class="wd09-location-1">Wind: </li>
+          <li class="TDHumidity">Humidity: </li>
         </ul>
       </div>
-      <div id="hour-9" class="column time-block">
+      <div id="tomorrowBlock" class="column time-block">
         <ul>
           <strong>Tomorrow</strong>
           <br>
-          <li class="wh09-location-1">Wave Height: </li>
+          <li class="TWTemp">Temp: </li>
           <br>
-          <li class="wr09-location-1">Weather: </li>
+          <li class="TWWind">Wind: </li>
           <br>
-          <li class="wd09-location-1">Wind: </li>
+          <li class="TWHumidity">Humidity: </li>
         </ul>
-      </div>
       </div>
     </section>
   </main>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/config.js"></script>
 </body>
 
 </html>
